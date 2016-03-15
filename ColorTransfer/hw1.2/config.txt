@@ -1,0 +1,14 @@
+flower.bmp
+reflect.bmp
+
+!COMPARE
+flower.bmp
+reverse_rgb_flower_reflect.bmp
+
+!REVERSE
+rgb_flower_reflect.bmp
+0.334102  0.509399  0.448247  0.318909  0.150185  0.299706  0.236692  0.395314  0.410122  0.195775  0.167028  0.232178
+
+lab single(independently) channel extreme value(128 part)
+-5.23,	-0.962,	-0.204
+0,	0.862,	0.203

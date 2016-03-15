@@ -1,0 +1,12 @@
+執行檔說明
+transfer.exe
+主要的程式 讀取config裡最先出現的兩個字串做為輸入檔名
+輸出rgb&lαβ轉換圖檔
+
+compare.exe
+讀取config裡!COMPARE後的兩個檔名
+輸出MSE PSNR 附加至statistics_log
+
+reverse.exe
+讀取config裡!REVERSE後的一個檔名 及所需的src tar統計資料(可直接從statistics_log裡複製)
+輸出轉換回來的圖檔

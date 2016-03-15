@@ -1,0 +1,44 @@
+416.bmp vs 512.bmp
+MSE.rgb:  3811.121,	3732.009,	6491.255
+PSNR.rgb: 12.320,	12.411,	10.008
+
+416.bmp vs desert.bmp
+MSE.rgb:  4927.318,	3348.872,	5638.537
+PSNR.rgb: 11.205,	12.882,	10.619
+
+416.bmp vs reverse_rgb_416_desert.bmp
+MSE.rgb:  11.173,	23.224,	163.117
+PSNR.rgb: 37.649,	34.471,	26.006
+
+sea.bmp vs sunset.bmp
+MSE.rgb:  10473.935,	5320.953,	19294.093
+PSNR.rgb: 7.930,	10.871,	5.277
+
+sea.bmp vs rgb_sea_sunset.bmp
+MSE.rgb:  3016.957,	257.544,	15430.593
+PSNR.rgb: 13.335,	24.022,	6.247
+
+sea.bmp vs rgb_sea_sunset.bmp
+MSE.rgb:  3016.957,	257.544,	15430.593
+PSNR.rgb: 13.335,	24.022,	6.247
+
+sea.bmp vs reverse_rgb_sea_sunset.bmp
+MSE.rgb:  313.098,	8.957,	40.827
+PSNR.rgb: 23.174,	38.609,	32.021
+
+856.bmp vs reverse_rgb_856_727.bmp
+MSE.rgb:  18.463,	1.858,	41.376
+PSNR.rgb: 35.468,	45.441,	31.963
+
+856.bmp vs 727.bmp
+MSE.rgb:  8750.806,	5083.006,	6242.934
+PSNR.rgb: 8.710,	11.070,	10.177
+
+flower.bmp vs reflect.bmp
+MSE.rgb:  10650.571,	3683.399,	8763.673
+PSNR.rgb: 7.857,	12.468,	8.704
+
+flower.bmp vs reverse_rgb_flower_reflect.bmp
+MSE.rgb:  198.114,	6.063,	0.295
+PSNR.rgb: 25.162,	40.304,	53.425
+

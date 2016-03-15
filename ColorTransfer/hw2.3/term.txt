@@ -1,0 +1,16 @@
+s0(n) pixels = a digit
+s1(k) digits = a symbol
+s2    symbols = an integral, s2 = h*v/n/k
+
+c1 = how many binary bits a digit can represent
+c2 = how many binary bits a symbol can represent
+c3 = how many binary bits an integral can represent
+
+d1 = message in digits
+d2 = message in symbols
+d3 = entire message to be embed
+
+l0 = s0*s1*s2= pixels in total
+l1 = s1*s2	 = digits in total
+l2 = s2		 = symbols in total
+l3 = 1		 = an integral
