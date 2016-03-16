@@ -1,0 +1,9 @@
+A = {1,2,3,4}
+B = {2,4,6,8}
+Print(A+B)
+Print(A-B)
+C = {4,8,16}
+Print(A-B+C)
+Print(B-A)
+Print(A*B)
+Print(AB)

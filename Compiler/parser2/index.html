@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>4101056014</title>
+	<style>
+		#box{
+			margin: 50px;
+			width: 800px;
+			height: 300px;
+		}
+		#lines{
+			margin: 0px;
+			height: 80%;
+			border-style: solid;
+			border-color: #bbb;
+			border-radius: 5px;
+			overflow: auto;
+		}
+		#edit{
+			width: 80%;
+			height: 100px;
+			resize: none;
+		}
+		pre{margin: 0px;}
+		li{
+			list-style-type: none;
+		}
+		li:hover{
+			background-color: #bbb !important;
+		}
+		li:nth-child(even){
+			background-color: #eee;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<ul id="lines"></ul>
+		<div id="input">
+			<textarea type="text" id="edit" placeholder="type at here, ex: declare A=1;">declare A=1;</textarea>
+			<button onclick="run()">Verify</button>
+			<button onclick="edit.innerHTML=''">Clear</button>
+		</div>
+	</div>
+	<script src="parser2.js"></script>
+	<script>
+		var lines = document.getElementById('lines')
+		var edit = document.getElementById('edit')
+		log = function(str){
+			lines.innerHTML +=
+				'<li><pre>+</pre></li>'.replace('+',str)
+		}
+		function run(){
+			var code = edit.value
+			init(code);
+			start();
+			var fmt = "<span style='color:+;''>+</span>"
+			fmt = fmt.replace('+', valid?'blue':'red')
+			fmt = fmt.replace('+',valid)
+			log(' >Is "+" valid? '.replace('+',code)+fmt)
+			lines.scrollTop = lines.scrollHeight;
+		}
+	</script>
+</body>
+</html>

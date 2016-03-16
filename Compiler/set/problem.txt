@@ -1,0 +1,13 @@
+Implement  an  interpreter  that  help  to  perform  sets  operations 
+Basic  Requirements  (60  pts):   
+Value  Assign:  S={a,  b,  c,  d} 
+Print:  Print(S) 
+Set  Operations: 
+S+T,  ST,  S*T,  S-T,  S+T-V 
+Advance  Requirements  (each  for  10  pts) 
+|S| 
+2S 
+Allow  Type  Definition 
+Print(avg(S));   
+etc  .	
+	

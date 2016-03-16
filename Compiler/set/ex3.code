@@ -1,0 +1,3 @@
+A={c,a}*{b,d}
+Print(A.sort)
+Print({5,4}+{3,2,1}.sort)

@@ -1,0 +1,8 @@
+issue:
+Shortened mutiplication
+Is ABCD a
+1. variable of name ABCD
+2. A * BCD
+3. A*B*C*D
+4. %^$R^$&^^*?
+So now we have 26 variable names(A to Z) available for you, ya~(though originally it was not)

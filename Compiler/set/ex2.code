@@ -1,0 +1,5 @@
+A = {2,1,5,4,3,2,1}
+A.sort
+A.unique
+A.sort.unique
+A.unique.sort

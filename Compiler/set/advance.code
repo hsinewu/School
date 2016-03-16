@@ -1,0 +1,7 @@
+X = {1,2,3}
+Print(|X|)
+Print(|{1,2,3,4}|)
+Print(2X)
+Print(7X)
+Print(X.ave)
+Print({2,4,6,8,10}.ave)

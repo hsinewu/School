@@ -1,0 +1,4 @@
+int A = {1,2,3}
+char B = {a,b,c}
+A = {a}
+B = A
